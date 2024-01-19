@@ -1,45 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NGO</title>
+    <title>oNGO</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="slide.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="helpline">
+        <ul>
+            <li><i class="fa-regular fa-phone"> </i> HelpLine Number : 1900-180-932 </li>
+            <li>+91 888-452-1203</li>
+            <li>helpage@ongo.org</li>
+        </ul>
+        <div class="insta">
+        <i style="color:white; padding-right: 10px;" class="fa-brands fa-instagram"></i>
+        <i style="color: white;" class="fa-brands fa-facebook"></i>
+    </div>
+        <div class="donate">DONATE</div>
+    </div>
+
+    <!-- navigation bar -->
     <nav id="navbar">
+        <!-- Logo -->
+        <div class="icon">
+            <b><i id="fav" class="fa-solid fa-person-cane"></i></b>
+            <div class="logo"><b>oNGO</b></div>
+        </div>
         <ul id="in_navbar">
-            <li>HOME</li>
-            <li>ABOUT US
-                <ul id="nav_about">
-                    <li>WHO WE ARE</li>
-                    <li>OUR CULTURE</li>
-                    <li>OUR STORY</li>
-                    <li>OUR TEAM</li>
-                    <li>TRANSPARENCY</li>
-                    <li>DONARS</li>
-                </ul>
-            </li>
-            <li>OUR WORK
-                <ul id="nav_work">
-                    <li>OUR PROGRAMS</li>
-                    <li>ANAND DAAN</li>
-                    <li>OLD AGE HOMES</li>
-                    <li>CANCER CAREERS</li>
-                    <li>DISASTER MANAGEMENT</li>
-                    <li>MOBILE MEDICINE</li>
-                    <li>DIGNITY PERFORMING ARTS</li>
-                    <li>CHAI MASTI COUNTER</li>
-                    <li>GARIMA GHAR</li>
-                </ul>
-            </li>
-            <li>FIELD STORIES</li>
-            <li>EVENTS</li>
-            <li>IMPACTS</li>
-            <li>WAYS TO GIVE</li>
-            <li>MEDIA</li>
-            <li>CAREERS</li>
-            <li>CONTACT US</li>
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+            <div class="menu">
+                <li><a href="/">HOME</a></li>
+                <li class="about_us">
+                    <a href="/">ABOUT US</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="nav_about">
+                        <li><a href="/">WHO WE ARE</a></li>
+                        <li><a href="/">OUR CULTURE</a></li>
+                        <li><a href="/">OUR STORY</a></li>
+                        <li><a href="/">OUR TEAM</a></li>
+                        <li><a href="/">TRANSPARENCY</a></li>
+                        <li><a href="/">DONARS</a></li>
+                    </ul>
+                </li>
+
+                <li class="work">
+                    <a href="/">OUR WORK</a>
+                    <ul class="nav_work">
+                        <li><a href="/">OUR PROGRAMS</a></li>
+                        <li><a href="/">ANAND DAAN</a></li>
+                        <li><a href="/">OLD AGE HOMES</a></li>
+                        <li><a href="/">CANCER CAREERS</a></li>
+                        <li><a href="/">DISASTER MANAGEMENT</a></li>
+                        <li><a href="/">MOBILE MEDICINE</a></li>
+                        <li><a href="/">DIGNITY PERFORMING ARTS</a></li>
+                        <li><a href="/">CHAI MASTI COUNTER</a></li>
+                        <li><a href="/">GARIMA GHAR</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="/">FIELD STORIES</a></li>
+                <li><a href="/">EVENTS</a></li>
+                <li><a href="/">IMPACTS</a></li>
+                <li><a href="/">WAYS TO GIVE</a></li>
+                <li><a href="/">MEDIA</a></li>
+                <li><a href="/">CAREERS</a></li>
+                <li><a href="/">CONTACT US</a></li>
+            </div>
         </ul>
     </nav>
+
+
+
+    <!-- slide images -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+                aria-label="Slide 9"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img7.png" class="d-block w-100" alt="">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <div class="firsti">BE THE HERO THEY DESERVE</div>
+                    <h5 style="color: blue;  font-size: 35px; margin-top: 30px; ">Support HelpAge Indian's</h5>
+                  <p style="color: black; font-size: 25px; margin-top: 40px;">YOUR CONTRIBUTION CAN HELP MORE ELDERS BECOME INDEPENDENT & SELF-RELIANT</p>
+                </div> -->
+            </div>
+
+            <div class="carousel-item">
+                <img src="img9.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img10.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img8.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="firsti">Be Financially Independent</h5>
+                    <p style="color: rgb(215, 230, 10); background-color: black; opacity: 0.7px; font-size: 50px; ">We
+                        are providing Financial Support also!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: yellow; background-color: black; opacity: 0.6; font-size: 70px;">Providing
+                        YOGA/Exercise Classes</h5>
+                    <p style="color: rgb(37, 193, 236); font-size: 50px;">SelfCare is 1st duty...Stay Happy & Healthy!!
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="slider1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 style="color: yellow; background-color: black; opacity: 0.6; font-size: 50px;">Be Always Happy!
+                        <br>STAY SAFE,STAY HAPPY,STAY HEALTHy</h2>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img12." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- give head -->
+    <div class="head"><i class="fa-solid fa-grip-lines"></i> oNGO INDIA <i class="fa-solid fa-grip-lines"></i></div>
+   
+    <!-- cards -->
+    <div class="card">
+        <div class="who">
+            <h2>Who we are</h2><br><br>
+            <p>A non-profit organisation that enables senior citizens to lead active lives and provides trusted information, productive ageing opportunities and social support services.</p>
+        </div>
+
+        <div class="what">
+            <h2 style="font-size: bold;">What we do</h2><br><br>
+            <p style="font-size: large;">We create an enlightened society in which senior citizens feel secure, confident, valued and can live with dignity. We rid fear from their minds and abolish their misconceptions.</p>
+        </div>
+
+        <div class="why">
+            <h2 style="font-size: bold;">Why we do it</h2><br><br>
+            <p style="font-size: large;">We are guided by our optimistic view of the world and the power of positive thinking. We are also confident, relentless and tireless in our pursuits for elder care</p>
+        </div>
+    </div>
+
+    <!-- count card -->
+    <div class="count">
+        <div class="v1">
+            <h1>12,500+</h1>
+            <p>Ration Kits Distributed in six cities (2021 till date)</p>
+        </div>
+        <div class="v2">
+            <h1>320</h1>
+            <p>Members at three Day Care Centres</p>
+        </div>
+        <div class="v3">
+            <h1>357</h1>
+            <p>Members at five Loneliness Mitigation Centres</p>
+        </div>
+        <div class="v4">
+            <h1>89</h1>
+            <p>Members at four Dementia Day Care Centres</p>
+        </div>
+        <div class="v5">
+            <h1>1522</h1>
+            <p>Memberships at 20+ Chai Masti Centres</p>
+        </div>
+        <div class="v6">
+            <h1>45,000+</h1>
+            <p>Mid Day Meals Served to Poor Senior Citizen</p>
+        </div>
+    </div>
+
+    <div class="member">
+        <h1>Let's Make a Difference</h1> <br>
+        <div class="mmm">
+        <div class="inermem">
+            <h2>MEMBERSHIP</h2>
+            <p>Become a member today</p>
+        </div>
+        
+        <div class="inermem">
+            <h2>DONATE</h2>
+            <p>Bring joy with your generous help</p>
+        </div>
+
+        <div class="inermem">  
+            <h2>HELPLINE</h2> 
+            <p>Assistance against abuse,neglect and isolation</p>
+        </div>
+    </div>
+
+    <div class="programs">
+        <h1>Our Programmes</h1>
+        <div class="cir1">
+            <h1>oNGO</h1>
+            <p>Care</p>
+        </div>
+        <div class="cir2">
+            <h1>oNGO</h1>
+            <p>HelpLine</p>
+        </div>
+        <div class="cir3">
+            <h1>oNGO</h1>
+            <p>Chai Masti Centres</p>
+        </div>
+        <div class="cir4">
+            <h1>oNGO</h1>
+            <p>Dialogue</p>
+        </div>
+        <div class="cir5">
+            <h1>oNGO</h1>
+            <p>Performing Arts</p>
+        </div>
+        <div class="cir6">
+            <h1>oNGO</h1>
+            <p>Anand Daan</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
